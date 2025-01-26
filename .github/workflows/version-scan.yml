@@ -38,6 +38,5 @@ jobs:
           commit_message: |
             chore: bump version
 
-            passwall: xiaorouji/openwrt-passwall@${{ steps.compare_version.outputs.passwall }}
-            passwall2: xiaorouji/openwrt-passwall2@${{ steps.compare_version.outputs.passwall2 }}
-            packages: xiaorouji/openwrt-passwall-packages@${{ steps.compare_version.outputs.packages }}
+            mosdns: sbwml/luci-app-mosdns@${{ steps.compare_version.outputs.mosdns }}
+            v2ray-geodata: sbwml/v2ray-geodata@${{ steps.compare_version.outputs.v2ray-geodata }}
