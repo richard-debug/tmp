@@ -1,0 +1,13 @@
+[__config__]
+oldver = "cur_ver.json"
+newver = "new_ver.json"
+
+[mosdns]
+source = "git"
+git = "https://github.com/sbwml/luci-app-mosdns"
+use_commit = true
+
+[v2ray-geodata]
+source = "git"
+git = "https://github.com/sbwml/v2ray-geodata"
+use_commit = true
